@@ -4,4 +4,51 @@
 }
 body {
     background-color:#0D5182 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #101943;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(230, 230, 230);
+    padding-top: 2%;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    padding: 0 0 10% 0;
+}
+
+.copyright a:hover {
+    color: #F6B50F;
+}
+
+.social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media li {
+    list-style-type: none;
+    padding-top: 10%
+}
+
+.social-media li img:hover {
+    height: 110%;
+    width: auto;
 }
