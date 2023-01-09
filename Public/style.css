@@ -9,8 +9,17 @@ body {
     flex-direction: column;
 }
 
-.ponter {
+.pointer {
     cursor: pointer;
+}
+
+header {
+    margin-top: 5vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-link {
@@ -25,19 +34,28 @@ body {
     color: #F6B50F;
 }
 
-header {
-    margin-top: 5vh;
-    margin-left: 18vw;
-    margin-right: 18vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-cart {
+    height: 5vh;
+}
+
+.header-searchIcon {
+    height: 3vh;
+}
+
+h1 {
+    text-align: center;
+    color: #F6B50F;
+    padding-bottom: 1vh;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2vh;
 }
 
 section {
     display: flex;
     flex-direction: row;
-    height: 100px;
     justify-content: center;   
 }
 section div  {
@@ -58,9 +76,34 @@ img {
     height: 3vh;
 }
 
+.main-commentsUsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main-commentsUsers-1{
+    display: flex;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.main-commentsUsers-1 p{
+    width: 50vw;
+    padding: 2vh;
+    margin-left: 5vw;
+    border: black;
+    background-color: aliceblue;
+}
+.main-imageUser{
+    height: 15vh;
+    border-radius: 50%;
+
+}
 footer {
     background-color: #101943;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
