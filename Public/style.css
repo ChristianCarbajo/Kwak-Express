@@ -5,3 +5,11 @@
 body {
     background-color:#0D5182 ;
 }
+header {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.cart {
+    height: 5vh;
+}
