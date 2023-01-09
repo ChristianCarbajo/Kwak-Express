@@ -2,10 +2,10 @@
 Project by KWAK_LEGION
 
 # TEAM
-[Christian] (https://github.com/ChristianCarbajo)
-[Iris] https://github.com/Jeann11
-[Jordy] https://github.com/Ashur19
-[Salah] https://github.com/SalahREH
+- [Christian] (https://github.com/ChristianCarbajo)
+- [Iris] https://github.com/Jeann11
+- [Jordy] https://github.com/Ashur19
+- [Salah] https://github.com/SalahREH
 
 
 # REQUIREMENTS
