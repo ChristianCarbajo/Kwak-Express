@@ -9,6 +9,20 @@ body {
     align-items: center;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 180px;
+    justify-content: center;   
+}
+section div  {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
 footer {
     background-color: #101943;
     width: 100%;
