@@ -36,3 +36,49 @@ header {
 .header-searchIcon{
     height: 3vh;
 }
+
+footer {
+    background-color: #101943;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(230, 230, 230);
+    padding-top: 2%;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    padding-bottom: 5%;
+}
+
+.copyright a:hover {
+    color: #F6B50F;
+}
+
+.social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media li {
+    list-style-type: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.social-media li img:hover {
+    height: 110%;
+    width: auto;
+}
