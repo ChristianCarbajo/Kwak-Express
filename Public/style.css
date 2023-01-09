@@ -6,13 +6,33 @@ body {
     background-color:#0D5182 ;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.ponter {
+    cursor: pointer;
+}
+.header-link{
+    text-decoration: none;
+}
+.header-textSize {
+    font-size: 3vh;
+}
+.header-color_Text {
+    color: #F6B50F;
 }
 header {
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
-.cart {
+.header-cart {
     height: 5vh;
+}
+.header-access {
+    
+}
+.header-searchIcon{
+    height: 3vh;
 }
