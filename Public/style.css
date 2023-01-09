@@ -11,8 +11,30 @@ body {
 
 footer {
     background-color: #101943;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
 }
 
 .copyright a {
     text-decoration: none;
+}
+
+.social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media li {
+    list-style-type: none;
 }
