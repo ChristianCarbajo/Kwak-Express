@@ -4,6 +4,9 @@
 }
 body {
     background-color:#0D5182 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header {
     margin-top: 10vh;
