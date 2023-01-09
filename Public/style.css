@@ -37,21 +37,22 @@ header {
 section {
     display: flex;
     flex-direction: row;
-    width: 180px;
-    height: 180px;
+    height: 100px;
     justify-content: center;   
 }
 section div  {
-    display: flex;
     justify-content: center;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
+
+img {
+    width: 100%;
+}
+
 .header-cart {
     height: 5vh;
 }
-
-.header-access {}
 
 .header-searchIcon {
     height: 3vh;
