@@ -25,12 +25,13 @@ footer {
 .copyright {
     display: flex;
     flex-direction: column;
+    padding-bottom: 2%;
 }
 
 .copyright a {
     text-decoration: none;
     color: rgb(230, 230, 230);
-    padding: 0 0 10% 0;
+    padding-bottom: 5%;
 }
 
 .copyright a:hover {
@@ -45,7 +46,8 @@ footer {
 
 .social-media li {
     list-style-type: none;
-    padding-top: 10%
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .social-media li img:hover {
