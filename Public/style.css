@@ -82,9 +82,9 @@ h3 {
 }
 
 .main-novedades div {
-    justify-content: center;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main-novedades-img {
@@ -138,8 +138,6 @@ flex-direction: column;
     position: relative;
     margin-top: 6vh;
     margin-bottom: 6vh;
-
-
 }
 
 .main-title:before {
