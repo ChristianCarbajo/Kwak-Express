@@ -5,43 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+    <link rel="stylesheet" href="output.css" />
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <image class="header-searchIcon ponter" src="/Public/Image/Search_Icon.png"></image>
-        <a class="header-link" href=""><p class="header-color_Text header-textSize">Tienda</p></a>
-        <a class="header-link" href=""><p class="header-color_Text header-textSize">Contacto</p></a>
+        <image class="header-searchIcon pointer" src="/Public/Image/Search_Icon.png"></image>
+        <a class="header-link" href="">
+            <p class="header-color_Text header-textSize">Tienda</p>
+        </a>
+        <a class="header-link" href="">
+            <p class="header-color_Text header-textSize">Contacto</p>
+        </a>
         <image src="Image/Logo.png"></image>
-        <a class="header-link" href=""><p class="header-access header-color_Text header-textSize">Acceder</p></a>
-        <a class="header-link" href=""><p class="header-color_Text header-textSize">Carrito/</p></a>
-        <a class="header-link" href=""><image class="header-cart header-color_Text header-textSize" src="Image/Carrito.png"></image></a>
+        <a class="header-link" href="">
+            <p class="header-access header-color_Text header-textSize">Acceder</p>
+        </a>
+        <a class="header-link" href="">
+            <p class="header-color_Text header-textSize">Carrito/</p>
+        </a>
+        <a class="header-link" href="">
+            <image class="header-cart header-color_Text header-textSize" src="Image/Carrito.png"></image>
+        </a>
     </header>
 
     <main>
-        <p>KWAK EXPRESS</p>
-        <p>NOVEDADES</p>
-        <section>
+        
+        <h1>KWAK EXPRESS</h1>
+        <h2>NOVEDADES</h2>
+        <section class="main-novedades">
             <div>
-                <img src="Image/Products/patito-goma-amarillo-corona-600x600.jpg"
+                <img class="main-novedades-img" src="Image/Products/patito-goma-amarillo-corona-600x600.jpg"
                     alt="Patito de Goma Amarillo con Corona">
-                <p>"Patito de Goma Amarillo con Corona"</p>
+                <h3>"Patito de Goma Amarillo con Corona"</h3>
             </div>
             <div>
-                <img src="Image/Products/patito-goma-angel-600x600.jpg" alt="Patito de Goma Ángel">
-                <p>"Patito de Goma Ángel"</p>
+                <img class="main-novedades-img" src="Image/Products/patito-goma-angel-600x600.jpg" alt="Patito de Goma Ángel">
+                <h3>"Patito de Goma Ángel"</h3>
             </div>
             <div>
-                <img src="Image/Products/patito-goma-avatar-600x600.jpg" alt="Patito de Goma Avatar">
-                <p>"Patito de Goma Avatar"</p>
+                <img class="main-novedades-img" src="Image/Products/patito-goma-avatar-600x600.jpg" alt="Patito de Goma Avatar">
+                <h3>"Patito de Goma Avatar"</h3>
             </div>
             <div>
-                <img src="Image/Products/pato-goma-happy-pride-600x600.jpg" alt="Patito de Goma Happy Pride">
-                <p>"Patito de Goma Happy Pride"</p>
+                <img class="main-novedades-img" src="Image/Products/pato-goma-happy-pride-600x600.jpg" alt="Patito de Goma Happy Pride">
+                <h3>"Patito de Goma Happy Pride"</h3>
             </div>
         </section>
+        <div class="main-commentsUsers">
+            <div class="main-commentsUsers-1">
+                <image class="main-imageUser" src="/Public/Image/Users/su_morenito_18.jpeg"></image>
+                <p> Ola que ase, compra patos o que ase. Si el moreno te vasila tu te callas y lo asimilas</p>
+
+            </div>
+            <div class="main-commentsUsers-1">
+
+                <image class="main-imageUser" src="/Public/Image/Users/noticias_puebla_gollum_01.jpg"></image>
+                <p> Lo llevo en todo momento porque es mío, yo lo compré, el vino a mí, mi tesoro, mío, solo mío.</p>
+            </div>
+            <div class="main-commentsUsers-1">
+                <image class="main-imageUser" src="/Public/Image/Users/popeye.jpg"></image>
+                <p> Me encanta llevarlo en mis travesías por el mar. Es verdad que tengo demasiados y he tenido
+                    problemas con mi prometida Oliva, pero siempre me perdona cuando la libro de ser raptada todos los
+                    días.
+                </p>
+            </div>
+        </div>
+
+
+        </div>
 
 
     </main>
@@ -64,6 +98,7 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="javaScript"></script>
 </body>
 
 </html>
