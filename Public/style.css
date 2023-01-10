@@ -2,16 +2,37 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color:#0D5182 ;
+    background-color: #0D5182;
     display: flex;
     flex-direction: column;
 
-    /* Esto solo para la second page (de momento) */
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    
+}
+
+.ponter {
+    cursor: pointer;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-textSize {
+    font-size: 3vh;
+}
+
+.header-color_Text {
+    color: #F6B50F;
+}
+
+header {
+    margin-top: 5vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sp-main{
@@ -44,9 +65,32 @@ body {
     top: 10vh;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 180px;
+    justify-content: center;   
+}
+section div  {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+.header-cart {
+    height: 5vh;
+}
+
+
+.header-searchIcon {
+    height: 3vh;
+}
 
 footer {
     background-color: #101943;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
@@ -61,12 +105,13 @@ footer {
 .copyright {
     display: flex;
     flex-direction: column;
+    padding-bottom: 2%;
 }
 
 .copyright a {
     text-decoration: none;
     color: rgb(230, 230, 230);
-    padding: 0 0 10% 0;
+    padding-bottom: 3%;
 }
 
 .copyright a:hover {
@@ -81,7 +126,8 @@ footer {
 
 .social-media li {
     list-style-type: none;
-    padding-top: 10%
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .social-media li img:hover {
