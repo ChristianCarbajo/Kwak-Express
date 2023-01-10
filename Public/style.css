@@ -95,7 +95,13 @@ h1 {
 h2 {
     text-align: center;
     padding-bottom: 2vh;
-    color: #ffffff;
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 1.5vh 0 8vh 0;
 }
 
 .main-novedades {
@@ -111,7 +117,41 @@ h2 {
 }
 
 .main-novedades-img {
-    width: 100%;
+    width: 60%;
+}
+
+.main-destacados {
+    display: flex;   
+    flex-direction: column;
+}
+
+.main-destacados div  {
+    display: flex;
+}
+
+.main-destacados-imgDiv {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.main-destacados-img {
+    width: 60%;
+}
+
+.main-temporada {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;   
+}
+.main-temporada div  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-temporada-img {
+    width: 60%;
 }
 
 .header-cart {
@@ -202,7 +242,8 @@ footer {
 .copyright a {
     text-decoration: none;
     color: rgb(230, 230, 230);
-    padding-bottom: 3%;
+    padding-bottom:
+     3%;
 }
 
 .copyright a:hover {
