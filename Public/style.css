@@ -12,7 +12,7 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw; */
-    
+
 }
 
 .pointer {
@@ -66,22 +66,63 @@ h1 {
 h2 {
     text-align: center;
     padding-bottom: 2vh;
-    color: #ffffff;
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 1.5vh 0 8vh 0;
 }
 
 .main-novedades {
     display: flex;
     flex-direction: row;
-    justify-content: center;   
+    justify-content: center;
 }
-.main-novedades div  {
+
+.main-novedades div {
     justify-content: center;
     padding-left: 2vh;
     padding-right: 2vh;
 }
 
 .main-novedades-img {
-    width: 100%;
+    width: 60%;
+}
+
+.main-destacados {
+    display: flex;   
+    flex-direction: column;
+}
+
+.main-destacados div  {
+    display: flex;
+}
+
+.main-destacados-imgDiv {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.main-destacados-img {
+    width: 60%;
+}
+
+.main-temporada {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;   
+}
+.main-temporada div  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-temporada-img {
+    width: 60%;
 }
 
 .header-cart {
@@ -93,14 +134,15 @@ h2 {
     height: 3vh;
 }
 
-.main-title{
-    position:relative;
+.main-title {
+    position: relative;
     margin-top: 6vh;
     margin-bottom: 6vh;
-    
-    
-  }
-  .main-title:before {
+
+
+}
+
+.main-title:before {
     content: "";
     display: block;
     border-top: solid 5px #F6B50F;
@@ -109,40 +151,44 @@ h2 {
     position: absolute;
     top: 30%;
     z-index: 0;
-  }
-  .main-title span {
-    background-color:#0D5182;
+}
+
+.main-title span {
+    background-color: #0D5182;
     padding: 0 40px;
     position: relative;
     z-index: 1;
-  }
-    
+}
+
 
 .main-commentsUsers {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.main-commentsUsers-1{
+.main-commentsUsers-1 {
     display: flex;
     align-items: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
-.main-commentsUsers-1 p{
+
+.main-commentsUsers-1 p {
     width: 50vw;
     padding: 2vh;
     margin-left: 5vw;
     border: black;
     background-color: aliceblue;
 }
-.main-imageUser{
+
+.main-imageUser {
     height: 15vh;
     border-radius: 50%;
 
 }
+
 footer {
     background-color: #101943;
     position: relative;
@@ -167,7 +213,8 @@ footer {
 .copyright a {
     text-decoration: none;
     color: rgb(230, 230, 230);
-    padding-bottom: 3%;
+    padding-bottom:
+     3%;
 }
 
 .copyright a:hover {
@@ -189,4 +236,34 @@ footer {
 .social-media li img:hover {
     height: 110%;
     width: auto;
+}
+
+
+
+
+
+
+
+/* Shopping Page UwU */
+
+.shopping-page-main {
+    background-color: rgb(230, 230, 230);
+    margin-top: 5%;
+}
+
+.shopping-page-main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20% 0 10%;
+}
+
+.shopping-page-main-nav-elements {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopping-page-main-nav-elements p {
+    padding-left: 30%;
 }
