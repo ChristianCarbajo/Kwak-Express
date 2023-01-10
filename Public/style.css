@@ -53,18 +53,18 @@ h2 {
     padding-bottom: 2vh;
 }
 
-section {
+.main-novedades {
     display: flex;
     flex-direction: row;
     justify-content: center;   
 }
-section div  {
+.main-novedades div  {
     justify-content: center;
     padding-left: 2vh;
     padding-right: 2vh;
 }
 
-.novedades {
+.main-novedades-img {
     width: 100%;
 }
 
