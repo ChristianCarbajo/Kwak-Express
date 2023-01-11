@@ -87,3 +87,13 @@ body {
       justify-content: space-between; }
       .shopping-page-main-product-elements p {
         padding-left: 30%; }
+    .shopping-page-main-product-TOTAL{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15vw;
+    margin-bottom: 5vh;
+    color: red;
+    font-style:italic;
+    font-size: larger;
+    font-weight:bold ;
+    }

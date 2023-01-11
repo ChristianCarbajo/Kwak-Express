@@ -30,10 +30,19 @@ function printCart() {
         <p>Subtotal</p>
         </div>
         </div>`
+     
         });
         cart.forEach((item, id) => {
             document.querySelector(`.id${id}`).addEventListener("click", () => { removeItem(id) })
-        })
+           
+        });
+        let sumaTotal=0
+         cart.forEach(function (a){sumaTotal +=a.price});
+         document.querySelector(".shopping-page-main-products").innerHTML += `
+         <p class="shopping-page-main-product-TOTAL">TOTAL:${sumaTotal}€</p>`
+                 
+        console.info(sumaTotal)
+         
     }
 }
 printCart()
@@ -42,7 +51,7 @@ function removeItem(id) {
     document.querySelector(".shopping-page-main-products").innerHTML = ''
     localStorage.setItem("cart", JSON.stringify(cart))
     printCart()
+    
 }
-
 
 
