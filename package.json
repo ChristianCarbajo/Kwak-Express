@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch:scss": "node-sass -w App/scss/input.scss Public/output.css"
+    "watch:scss": "node-sass -w App/scss/input.scss Public/css/output.css"
   },
   "dependencies": {
     "node-sass": "^8.0.0"

@@ -246,26 +246,3 @@ footer {
 
 
 
-/* Shopping Page UwU */
-
-.shopping-page-main {
-    background-color: rgb(230, 230, 230);
-    margin-top: 5%;
-}
-
-.shopping-page-main-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20% 0 10%;
-}
-
-.shopping-page-main-nav-elements {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.shopping-page-main-nav-elements p {
-    padding-left: 30%;
-}

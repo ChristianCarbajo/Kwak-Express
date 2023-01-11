@@ -1,7 +1,6 @@
 
 
 
-
 .sp-main {
     width: 100%;
     background-color: white;
@@ -27,7 +26,7 @@
 
             &-directory{
                 margin: 1.5vh 0 1.5vh 0;
-                color: gray;
+                color: gray !important;
             }
 
             &-name{
@@ -41,6 +40,7 @@
 
             &-addToCart{
                 border: 0;
+                cursor: pointer;
             }
 
 

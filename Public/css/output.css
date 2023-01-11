@@ -1,0 +1,77 @@
+body {
+  font-family: Lato, 'Open Sans', sans-serif; }
+
+.sp-main {
+  width: 100%;
+  background-color: white; }
+  .sp-main-product {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 13vw 0 13vw; }
+    .sp-main-product-img {
+      width: 30vw;
+      margin: 5vh; }
+    .sp-main-product-description {
+      height: 25vh;
+      width: 30vw;
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+      .sp-main-product-description-directory {
+        margin: 1.5vh 0 1.5vh 0;
+        color: gray !important; }
+      .sp-main-product-description-name {
+        margin: 1.5vh 0 1.5vh 0;
+        font-weight: bold; }
+      .sp-main-product-description-price {
+        margin: 1.5vh 0 1.5vh 0; }
+      .sp-main-product-description-addToCart {
+        border: 0;
+        cursor: pointer; }
+  .sp-main-div {
+    height: 70%; }
+
+/* Shopping Page UwU */
+.shopping-page-main {
+  background-color: white;
+  margin-top: 5%; }
+  .shopping-page-main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20% 0 10%; }
+    .shopping-page-main-nav-productTitle {
+      margin-left: 1vw; }
+    .shopping-page-main-nav-elements {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between; }
+      .shopping-page-main-nav-elements p {
+        padding-left: 30%; }
+  .shopping-page-main-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20% 0 10%;
+    align-items: center;
+    height: 15vh; }
+    .shopping-page-main-product-imgName {
+      display: flex;
+      align-items: center; }
+      .shopping-page-main-product-imgName img {
+        height: 10vh;
+        margin-right: 6vw;
+        border-radius: 100%;
+        border-style: solid;
+        border-color: #c6c6c6;
+        border-width: 2px; }
+    .shopping-page-main-product-elements {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between; }
+      .shopping-page-main-product-elements p {
+        padding-left: 30%; }
