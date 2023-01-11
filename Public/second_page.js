@@ -38,3 +38,10 @@ document.querySelector(".sp-main-product-description-addToCart").addEventListene
 
 
 
+var img = document.querySelector(".sp-main-product-description-addToCart");
+function playQwak() {
+
+    let audio = new Audio("sound/Quack sound effect.mp3")
+    audio.play();
+}
+img.addEventListener("click", playQwak)
