@@ -1,4 +1,4 @@
-import { products } from "./js/products.js";
+import { products } from "./products.js";
 
 
 
@@ -41,7 +41,7 @@ document.querySelector(".sp-main-product-description-addToCart").addEventListene
 var img = document.querySelector(".sp-main-product-description-addToCart");
 function playQwak() {
 
-    let audio = new Audio("sound/Quack sound effect.mp3")
+    let audio = new Audio("././sound/Quack sound effect.mp3")
     audio.play();
 }
 img.addEventListener("click", playQwak)
