@@ -17,7 +17,6 @@ function printCart() {
     </div>`
     } else {
         cart.forEach((element, id) => {
-            // document.querySelector(".shopping-page-main-products").innerHTML = ''
             document.querySelector(".shopping-page-main-products").innerHTML += `
         <div class="shopping-page-main-product">
         <div class="shopping-page-main-product-imgName">
@@ -40,6 +39,7 @@ function printCart() {
 printCart()
 function removeItem(id) {
     cart.splice(id, 1)
+    document.querySelector(".shopping-page-main-products").innerHTML = ''
     localStorage.setItem("cart", JSON.stringify(cart))
     printCart()
 }
