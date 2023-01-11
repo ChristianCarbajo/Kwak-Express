@@ -1,0 +1,57 @@
+
+
+
+.sp-main {
+    width: 100%;
+    background-color: white;
+
+    &-product {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 13vw 0 13vw;
+
+        &-img {
+            width: 30vw;
+            margin: 5vh;
+        }
+
+        &-description {
+            height: 25vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            &-directory{
+                margin: 1.5vh 0 1.5vh 0;
+                color: gray !important;
+            }
+
+            &-name{
+                margin: 1.5vh 0 1.5vh 0;
+                font-weight: bold;
+            }
+
+            &-price{
+                margin: 1.5vh 0 1.5vh 0;
+            }
+
+            &-addToCart{
+                border: 0;
+                cursor: pointer;
+            }
+
+
+
+
+        }
+
+    }
+
+    &-div {
+        height: 70%;
+    }
+    
+}

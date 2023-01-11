@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/output.css" />
 </head>
 <body>
     <header>
-
+        <image class="header-searchIcon pointer" src="/Public/Image/Search_Icon.png"></image>
+        <a class="header-link" href="index.html">
+            <p class="header-color_Text header-textSize">Tienda</p>
+        </a>
+        <a class="header-link" href="">
+            <p class="header-color_Text header-textSize">Contacto</p>
+        </a>
+        <image src="Image/Logo.png"></image>
+        <a class="header-link" href="">
+            <p class="header-access header-color_Text header-textSize">Acceder</p>
+        </a>
+        <a class="header-link" href="">
+            <p class="header-color_Text header-textSize">Carrito/</p>
+        </a>
+        <a class="header-link" href="">
+            <image class="header-cart header-color_Text header-textSize" src="Image/Carrito.png"></image>
+        </a>
     </header>
     <main class="sp-main">
         <div class="sp-main-product">
             <div class="sp-main-product-div"><img class="sp-main-product-img" src="Image/Products/patito-goma-amarillo-corona-600x600.jpg" alt="Product Image"></div>
             <div class="sp-main-product-description">
-                <p class="sp-main-product-description-directory">Inicio / Tienda / Patitos de Goma /<br>
-                    Productos de Temporada</p>
+                <p class="sp-main-product-description-directory">Inicio / Tienda / Patitos de Goma / Productos de Temporada</p>
                 <p class="sp-main-product-description-name">Nombre producto</p>
                 <div class="sp-main-product-description-quantity"></div>
-                <p class="sp-main-product-description-price">10,95$</p>
-                <div class="sp-main-product-description-quantity"></div>
-                <button class="sp-main-product-description-addToCart" href="./index.html">Añadir al carro</button>
+                <p class="sp-main-product-description-price">10,95€</p>
+                <button class="sp-main-product-description-addToCart" onclick="">Añadir al carro</button>
             </div>
         </div>
     </main>
+    <script type="module" src="second_page.js"></script>
 </body>
 </html>

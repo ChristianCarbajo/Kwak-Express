@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/output.css" />
     <title>Document</title>
 </head>
 
@@ -26,30 +26,33 @@
         <a class="header-link" href="">
             <p class="header-color_Text header-textSize">Carrito/</p>
         </a>
-        <a class="header-link" href="">
+        <a class="header-link" href="./shopping_page.html">
             <image class="header-cart header-color_Text header-textSize" src="Image/Carrito.png"></image>
         </a>
     </header>
-
-    <main>
+    <audio id="audio">
+        <source type="audio/mp3" src="sound/Quack sound effect.mp3">
+        </audio>
+    <main class="main">
         <h1>KWAK EXPRESS</h1>
+        <p class="slogan"> SE FELIZ "PATO DA LA VIDA" JUNTO A TU KWAK FAVORITO</p>
         <h2 class="main-title"><span>NOVEDADES</span></h2>
         <section class="main-novedades">
             <div>
-                <img class="main-novedades-img" src="Image/Products/patito-goma-amarillo-corona-600x600.jpg"
-                    alt="Patito de Goma Amarillo con Corona">
+                <a href="./second_page.html?id=1"><img class="main-novedades-img"  src="Image/Products/patito-goma-amarillo-corona-600x600.jpg"
+                    alt="Patito de Goma Amarillo con Corona"></a>
                 <h3>"Patito de Goma Amarillo con Corona"</h3>
             </div>
             <div>
-                <img class="main-novedades-img" src="Image/Products/patito-goma-angel-600x600.jpg" alt="Patito de Goma Ángel">
+                <a href="./second_page.html?id=2"><img class="main-novedades-img" src="Image/Products/patito-goma-angel-600x600.jpg" alt="Patito de Goma Ángel"></a>
                 <h3>"Patito de Goma Ángel"</h3>
             </div>
             <div>
-                <img class="main-novedades-img" src="Image/Products/patito-goma-avatar-600x600.jpg" alt="Patito de Goma Avatar">
+                <a href="./second_page.html?id=3"><img class="main-novedades-img" src="Image/Products/patito-goma-avatar-600x600.jpg" alt="Patito de Goma Avatar"></a>
                 <h3>"Patito de Goma Avatar"</h3>
             </div>
             <div>
-                <img class="main-novedades-img" src="Image/Products/pato-goma-happy-pride-600x600.jpg" alt="Patito de Goma Happy Pride">
+                <a href="./second_page.html?id=4"><img class="main-novedades-img" src="Image/Products/pato-goma-happy-pride-600x600.jpg" alt="Patito de Goma Happy Pride"></a>
                 <h3>"Patito de Goma Happy Pride"</h3>
             </div>
         </section>
@@ -138,11 +141,7 @@
                 </p>
             </div>
         </div>
-
-
-        </div>
-
-
+    </div>
     </main>
     <footer>
         <div class="footer-nav">
@@ -163,5 +162,4 @@
     </footer>
     <script type="module" src="javaScript"></script>
 </body>
-
 </html>
