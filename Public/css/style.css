@@ -63,6 +63,13 @@ h1 {
     padding-bottom: 1vh;
 }
 
+.slogan {
+    padding-top: 3vh;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
 h2 {
     text-align: center;
     padding-bottom: 2vh;
