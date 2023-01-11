@@ -6,13 +6,7 @@
 body {
     background-color: #0D5182;
     display: flex;
-    flex-direction: column;
-
-    /* align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw; */
-
+    flex-direction: column;   
 }
 
 .pointer {
@@ -82,9 +76,10 @@ h3 {
 }
 
 .main-novedades div {
-    justify-content: center;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .main-novedades-img {
