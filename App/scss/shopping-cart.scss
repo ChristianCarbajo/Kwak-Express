@@ -1,0 +1,65 @@
+/* Shopping Page UwU */
+
+.shopping-page-main {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 20% 0 10%;
+
+        &-productTitle{
+            margin-left: 1vw;
+        }
+
+
+        &-elements {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                padding-left: 30%;
+            }
+        }
+    }
+
+    &-product {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20% 0 10%;
+        align-items: center;
+        height: 15vh;
+
+        
+
+        &-imgName {
+            display: flex;
+            align-items: center;
+            
+            img{
+            height: 10vh;
+            margin-right: 6vw;
+            border-radius: 100%;
+            border-style: solid;
+            border-color: rgb(198, 198, 198);
+            border-width: 2px;
+        }
+        }
+
+        &-elements {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                padding-left: 30%;
+            }
+        }
+    }
+}
