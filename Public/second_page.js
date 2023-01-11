@@ -35,3 +35,13 @@ document.querySelector(".sp-main-product-description").innerHTML = `
 <button class="sp-main-product-description-addToCart">Añadir al carro</button>`
 
 document.querySelector(".sp-main-product-description-addToCart").addEventListener("click", addToCart)
+
+
+
+var img = document.querySelector(".sp-main-product-description-addToCart");
+function playQwak(){
+    
+    let audio = new Audio("sound/Quack sound effect.mp3")
+audio.play();
+}
+img.addEventListener("click", playQwak)
