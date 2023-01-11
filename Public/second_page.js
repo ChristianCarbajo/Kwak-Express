@@ -35,3 +35,6 @@ document.querySelector(".sp-main-product-description").innerHTML = `
 <button class="sp-main-product-description-addToCart">Añadir al carro</button>`
 
 document.querySelector(".sp-main-product-description-addToCart").addEventListener("click", addToCart)
+
+
+
