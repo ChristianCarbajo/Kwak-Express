@@ -23,6 +23,11 @@ header {
     align-items: center;
 }
 
+.header-searchIcon {
+    height: 3vh;
+}
+
+
 .header-link {
     text-decoration: none;
     display: flex;
@@ -37,20 +42,18 @@ header {
     color: #F6B50F;
 }
 
-header {
-    margin-top: 5vh;
-    margin-left: 18vw;
-    margin-right: 18vw;
-    display: flex;
-    justify-content: space-between;
-}
-
 .header-cart {
     height: 5vh;
 }
-
-.header-searchIcon {
-    height: 3vh;
+.header-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6B50F;
+    color: white;
+    border-radius: 100%;
+    height: 4.5vh;
+    width: 4.5vh;
 }
 
 h1 {
@@ -137,25 +140,7 @@ flex-direction: column;
     width: 60%;
 }
 
-.header-cart {
-    height: 5vh;
-}
 
-
-.header-searchIcon {
-    height: 3vh;
-}
-
-.header-quantity{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F6B50F;
-    color: white;
-    border-radius: 100%;
-    height: 4.5vh;
-    width: 4.5vh;
-}
 
 .main-title {
     position: relative;
