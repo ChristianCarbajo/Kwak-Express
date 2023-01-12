@@ -15,8 +15,8 @@ body {
 
 header {
     margin-top: 5vh;
-    margin-left: 18vw;
-    margin-right: 18vw;
+    margin-left: 17vw;
+    margin-right: 11vw;
     margin-bottom: 5vh;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,9 @@ h1 {
     padding-top: 3vh;
     color: white;
     font-style: italic;
+    font-family: 'Alegreya', serif;
     text-align: center;
+    font-size: larger;
 }
 
 h2 {

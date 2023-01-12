@@ -27,26 +27,24 @@ function printCart() {
         </div>
         <div class="shopping-page-main-product-elements">
         <p>${element.price}</p>
-        <p>Cantidad</p>
-        <p>Subtotal</p>
         </div>
         </div>`
-     
+
         });
-        
-        let suma = 0 
+
+        let suma = 0
         suma = sumaTotal()
-        
+
         document.querySelector(".shopping-page-main-products").innerHTML += `
         <p class="shopping-page-main-product-TOTAL">TOTAL:${suma}€</p>`
-       
-        
+
+
         cart.forEach((item, id) => {
             document.querySelector(`.id${id}`).addEventListener("click", () => { removeItem(id) })
-           
+
         });
-        
-     
+
+
     }
 }
 printCart()
@@ -54,10 +52,10 @@ function removeItem(id) {
     cart.splice(id, 1)
     document.querySelector(".shopping-page-main-products").innerHTML = ''
     localStorage.setItem("cart", JSON.stringify(cart))
-    
+
     printCart()
     printQuantity()
-    
+
 }
 
 
