@@ -5,7 +5,8 @@ let cart = JSON.parse(localStorage.getItem("cart"))
 
 
 function printCart() {
-    if (!cart || cart == []) {
+    if (cart == []) {
+        console.log("hola");
         document.querySelector(".shopping-page-main-products").innerHTML += `
     <div class="shopping-page-main-product">
     <div class="shopping-page-main-product-imgName">
@@ -34,14 +35,7 @@ function printCart() {
         });
         
         let suma = 0 
-        
-        cart.forEach(element => { 
-            suma += element.price
-           
-           
-          }) 
-        
-    
+        suma = sumaTotal()
         
         document.querySelector(".shopping-page-main-products").innerHTML += `
         <p class="shopping-page-main-product-TOTAL">TOTAL:${suma}€</p>`
@@ -62,6 +56,7 @@ function removeItem(id) {
     localStorage.setItem("cart", JSON.stringify(cart))
     
     printCart()
+    printQuantity()
     
 }
 
