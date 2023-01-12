@@ -41,7 +41,7 @@ function printCart() {
            
           }) 
         
-    console.info(sumaTotal())
+    
         
         document.querySelector(".shopping-page-main-products").innerHTML += `
         <p class="shopping-page-main-product-TOTAL">TOTAL:${suma}€</p>`
