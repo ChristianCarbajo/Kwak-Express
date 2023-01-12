@@ -1,5 +1,5 @@
 import { products } from "./products.js";
-
+import { printQuantity } from "./index.js";
 
 
 let params = (new URL(document.location)).searchParams;
@@ -9,6 +9,8 @@ let productId = params.get('id')
 let selectedProduct = products.filter(item => item.id == productId)
 
 let cartList = []
+
+
 
 
 const addToCart = (id) => {
@@ -23,6 +25,7 @@ const addToCart = (id) => {
         data.push(newDuck)
         localStorage.setItem('cart', JSON.stringify(data))
     }
+    printQuantity()
 }
 
 document.querySelector(".sp-main-product-img").src = selectedProduct[0].image
@@ -39,9 +42,11 @@ document.querySelector(".sp-main-product-description-addToCart").addEventListene
 
 
 var img = document.querySelector(".sp-main-product-description-addToCart");
-function playQwak() {
 
+function playQwak() {
     let audio = new Audio("././sound/Quack sound effect.mp3")
+    audio.volume = 0.8
     audio.play();
 }
+
 img.addEventListener("click", playQwak)
