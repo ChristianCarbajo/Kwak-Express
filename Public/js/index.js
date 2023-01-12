@@ -1,13 +1,33 @@
-
+let cart = JSON.parse(localStorage.getItem("cart"))
 function printQuantity() {
-    let quantity = JSON.parse(localStorage.getItem("cart"))
-    if (quantity == null) {
-        quantity = []
+    
+    if (cart == null) {
+        cart= []
     }
-
-    document.querySelector(".header-quantity").innerHTML =  quantity.length
+    
+    document.querySelector(".header-quantity").innerHTML =  cart.length
 }
 
 printQuantity()
 
-export { printQuantity }
+
+function sumaTotal () {
+    let suma = 0
+    cart.forEach(element => { 
+      suma += element.price
+     
+     
+    }) 
+    document.querySelector(".total").innerHTML = suma + "€"
+    return suma 
+    
+}  
+  sumaTotal()    
+    
+
+
+export { printQuantity, sumaTotal }
+
+
+
+

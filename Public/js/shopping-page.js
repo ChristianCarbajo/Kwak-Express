@@ -1,4 +1,4 @@
-import { printQuantity } from "./index.js";
+import { printQuantity, sumaTotal } from "./index.js";
 
 let cart = JSON.parse(localStorage.getItem("cart"))
 
@@ -32,11 +32,21 @@ function printCart() {
         </div>`
      
         });
-        let sumaTotal=0
-         cart.forEach(function (a){sumaTotal +=a.price
-        });
+        
+        let suma = 0 
+        
+        cart.forEach(element => { 
+            suma += element.price
+           
+           
+          }) 
+        
+    console.info(sumaTotal())
+        
         document.querySelector(".shopping-page-main-products").innerHTML += `
-        <p class="shopping-page-main-product-TOTAL">TOTAL:${sumaTotal}€</p>`
+        <p class="shopping-page-main-product-TOTAL">TOTAL:${suma}€</p>`
+       
+        
         cart.forEach((item, id) => {
             document.querySelector(`.id${id}`).addEventListener("click", () => { removeItem(id) })
            
@@ -50,6 +60,7 @@ function removeItem(id) {
     cart.splice(id, 1)
     document.querySelector(".shopping-page-main-products").innerHTML = ''
     localStorage.setItem("cart", JSON.stringify(cart))
+    
     printCart()
     
 }
