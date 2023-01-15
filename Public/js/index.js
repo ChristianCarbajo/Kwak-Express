@@ -25,6 +25,9 @@ function sumaTotal() {
 }
 sumaTotal()
 
+let algo = Array()
+console.log();
+
 var $ = {
   enabled: false,
   tmp: Array(),
@@ -55,8 +58,8 @@ var $ = {
   }
 }
 
-window.addEventListener("load", () => {$.init()} ) 
-window.addEventListener("keydown", (e) => {$.konamiCode(e)})
+window.addEventListener("load", () => { $.init() })
+window.addEventListener("keydown", (e) => { $.konamiCode(e)})
 
 
 export { printQuantity, sumaTotal }
