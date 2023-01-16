@@ -6,7 +6,6 @@ let cart = JSON.parse(localStorage.getItem("cart"))
 
 function printCart() {
     if (cart == []) {
-        console.log("hola");
         document.querySelector(".shopping-page-main-products").innerHTML += `
     <div class="shopping-page-main-product">
     <div class="shopping-page-main-product-imgName">

@@ -1,6 +1,6 @@
 function printQuantity() {
   let cart = JSON.parse(localStorage.getItem("cart"))
-  if (cart == null) {
+  if (!cart) {
     cart = []
   }
 
@@ -14,8 +14,9 @@ function sumaTotal() {
   let suma = 0
   let cart = JSON.parse(localStorage.getItem("cart"))
   
-  if (!(!cart)) {
-    console.log(cart);
+  if (!cart) {
+    cart = [];
+  } else {
     cart.forEach(element => {
       suma += element.price
     })
@@ -26,9 +27,6 @@ function sumaTotal() {
   return suma
 }
 sumaTotal()
-
-let algo = Array()
-console.log();
 
 var $ = {
   enabled: false,

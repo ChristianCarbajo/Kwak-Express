@@ -15,7 +15,6 @@ let cartList = []
 
 const addToCart = (id) => {
     let recoveredData = localStorage.getItem('cart')
-    console.log(recoveredData);
     if (recoveredData == null) {
         cartList.push(selectedProduct[0])
         localStorage.setItem('cart', JSON.stringify(cartList))
