@@ -9,7 +9,6 @@ async function apiGET(route) {
         const data = await response.json()
         let characters = data.results
         return characters
-        console.log(data)
     } catch (error) { }
 }
 
