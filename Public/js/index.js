@@ -13,11 +13,14 @@ printQuantity()
 function sumaTotal() {
   let suma = 0
   let cart = JSON.parse(localStorage.getItem("cart"))
-  cart.forEach(element => {
-    suma += element.price
+  
+  if (!(!cart)) {
+    console.log(cart);
+    cart.forEach(element => {
+      suma += element.price
+    })
+  }
 
-
-  })
   suma = suma.toFixed(2)
   document.querySelector(".total").innerHTML = suma + "€"
   return suma
@@ -59,7 +62,7 @@ var $ = {
 }
 
 window.addEventListener("load", () => { $.init() })
-window.addEventListener("keydown", (e) => { $.konamiCode(e)})
+window.addEventListener("keydown", (e) => { $.konamiCode(e) })
 
 
 export { printQuantity, sumaTotal }
