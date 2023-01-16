@@ -24,7 +24,6 @@ function sumaTotal() {
   suma = suma.toFixed(2)
   document.querySelector(".total").innerHTML = suma + "€"
   return suma
-
 }
 sumaTotal()
 
