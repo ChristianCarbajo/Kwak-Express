@@ -76,5 +76,24 @@
                 padding-left: 30%;
             }
         }
+
+        &-TOTAL {
+
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 16vw;
+            margin-bottom: 4vh;
+            color: red;
+            font-style: italic;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        /* //Bottom finalizar compra// */
+        &-purchase {
+            text-align: right;
+            padding-right: 16vw;
+            padding-bottom: 4vh;
+        }
     }
 }
