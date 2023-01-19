@@ -35,7 +35,7 @@ var $ = {
   init: function () {
     this.tmp = Array(65, 66, 39, 37, 39, 37, 40, 40, 38, 38);
   },
-  konamiCode: function (e) {
+  RickCode: function (e) {
     if (!this.enabled) {
       var t = this.tmp.pop();
       if ((e.keyCode - t) == 0) {
@@ -59,7 +59,7 @@ var $ = {
 }
 
 window.addEventListener("load", () => { $.init() })
-window.addEventListener("keydown", (e) => { $.konamiCode(e) })
+window.addEventListener("keydown", (e) => { $.RickCode(e) })
 
 
 export { printQuantity, sumaTotal }
