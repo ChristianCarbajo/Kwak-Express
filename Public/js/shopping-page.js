@@ -25,7 +25,7 @@ function printCart() {
         <p class="shopping-page-main-nav-product">${element.name}</p>
         </div>
         <div class="shopping-page-main-product-elements">
-        <p>${element.price}</p>
+        <p>${element.price}€</p>
         </div>
         </div>`
 
