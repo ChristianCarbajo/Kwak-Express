@@ -27,9 +27,7 @@ async function useAPI(params) {
 }
 
 
-function name(params) {
-    
-}
+
 
 useAPI("/character")
 
