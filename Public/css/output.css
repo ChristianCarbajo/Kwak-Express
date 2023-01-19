@@ -142,20 +142,20 @@ h3 {
 .slider {
   width: 100%;
   max-width: 80vw;
-  height: 40vh;
+  height: 50vh;
   position: relative;
   overflow: hidden; }
 
 .slide {
   width: 100%;
   max-width: 30vw;
-  height: 40vh;
+  height: 100%;
   position: absolute;
   transition: all 0.5s;
   display: flex;
   align-items: center; }
   .slide img {
-    width: 60%;
+    height: 60%;
     object-fit: cover; }
   .slide h3 {
     margin: 1.5vh 0 2vh 0; }
