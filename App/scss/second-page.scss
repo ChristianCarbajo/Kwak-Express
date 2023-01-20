@@ -1,8 +1,6 @@
-
-
-
 .sp-main {
     width: 100%;
+    height: 70vh;
     background-color: white;
 
     &-product {
@@ -12,35 +10,60 @@
         justify-content: space-between;
         margin: 0 13vw 0 13vw;
 
+        &-div {
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         &-img {
-            width: 30vw;
+            height: 100%;
             margin: 5vh;
         }
 
         &-description {
-            height: 25vh;
+            height: 70%;
             width: 30vw;
             display: flex;
             flex-direction: column;
             position: relative;
 
-            &-directory{
+            &-directory {
                 margin: 1.5vh 0 1.5vh 0;
-                color: gray !important;
+                color: gray;
+
+                a {
+                    color: rgb(189, 173, 0);
+                }
             }
 
-            &-name{
-                margin: 1.5vh 0 1.5vh 0;
+            &-name {
+                margin: 0 0 3vh 0;
                 font-weight: bold;
+                font-size:25px ;
+                color: rgb(103, 103, 0)
+
             }
 
-            &-price{
-                margin: 1.5vh 0 1.5vh 0;
+            &-price {
+                margin: 0 0 3vh 0;
+                font-size: 20px;
+
             }
 
-            &-addToCart{
-                border: 0;
+            &-addToCart {
+                border: 0.5;
+                border-style: solid;
+                font-size: 20px;
+
                 cursor: pointer;
+                height: 5vh;
+                width: 15vw;
+                background-color:rgb(255, 254, 242);
+                border-radius: 2px;
+                border-color: rgb(183, 183, 183);
+
             }
 
 
@@ -48,10 +71,9 @@
 
         }
 
+        
     }
 
-    &-div {
-        height: 70%;
-    }
-    
+
+
 }

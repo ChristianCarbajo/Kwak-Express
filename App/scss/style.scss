@@ -197,22 +197,22 @@ h3 {
 .slider {
     width: 100%;
     max-width: 80vw;
-    height: 50vh;
+    height: 40vh;
     position: relative;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .slide {
     width: 100%;
     max-width: 30vw;
-    height: 100%;
+    height: 40vh;
     position: absolute;
     transition: all 0.5s;
     display: flex;
     align-items: center;
 
     img {
-        height: 60%;
+        width: 60%;
         object-fit: cover;
     }
 
@@ -220,6 +220,7 @@ h3 {
         margin: 1.5vh 0 2vh 0
     }
 }
+
 
 .btn {
     position: absolute;
