@@ -42,8 +42,6 @@ function printCart() {
             document.querySelector(`.id${id}`).addEventListener("click", () => { removeItem(id) })
 
         });
-
-
     }
 }
 printCart()
@@ -58,3 +56,25 @@ function removeItem(id) {
 }
 
 
+
+let buy = document.querySelector("#btn-add")
+let phoneNumber = 34602179499
+
+function buyWhatsapp(params) {
+    let names = "";
+    let totalPrice = 0;
+    totalPrice = sumaTotal();
+    cart.forEach((element, id) => {
+        if(id+1 == cart.length){
+            names += element.name + " "
+        } else{
+            names += element.name + ", "
+        }
+    });
+
+    window.open("https://api.whatsapp.com/send/?phone=" + phoneNumber + "&text=" + "Productos: " + names + " - " + "Precio total =" + totalPrice + "&app_absent=0");
+    
+}
+
+
+buy.addEventListener("click", buyWhatsapp)
