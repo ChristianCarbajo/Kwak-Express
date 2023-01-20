@@ -8,7 +8,7 @@ function printQuantity() {
 
 }
 
-// printQuantity()
+printQuantity()
 
 function sumaTotal() {
   let suma = 0
@@ -26,7 +26,7 @@ function sumaTotal() {
   document.querySelector(".total").innerHTML = suma + "€"
   return suma
 }
-// sumaTotal()
+sumaTotal()
 
 var $ = {
   enabled: false,
