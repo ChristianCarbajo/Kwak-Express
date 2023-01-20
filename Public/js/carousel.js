@@ -13,8 +13,8 @@ nextSlide.addEventListener("click", function () {
         curSlide++;
     }
 
-    slides.forEach((slide, indx) => {
-        slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+    slides.forEach((slide, index) => {
+        slide.style.transform = `translateX(${100 * (index - curSlide)}%)`;
     });
 });
 
@@ -25,7 +25,7 @@ prevSlide.addEventListener("click", function () {
         curSlide--; 
     }
 
-    slides.forEach((slide, indx) => {
-        slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+    slides.forEach((slide, index) => {
+        slide.style.transform = `translateX(${100 * (index - curSlide)}%)`;
     });
 });
