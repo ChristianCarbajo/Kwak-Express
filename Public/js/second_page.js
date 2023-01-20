@@ -1,5 +1,5 @@
 import { products } from "./products.js";
-import { printQuantity, sumaTotal } from "./index.js";
+import { printQuantity, totalSum } from "./index.js";
 
 
 let params = (new URL(document.location)).searchParams;
@@ -25,7 +25,7 @@ const addToCart = () => {
         localStorage.setItem('cart', JSON.stringify(data))
     }
     printQuantity()
-    sumaTotal()
+    totalSum()
 }
 
 document.querySelector(".sp-main-product-img").src = newDuck.image

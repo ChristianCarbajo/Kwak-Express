@@ -10,7 +10,7 @@ function printQuantity() {
 
 printQuantity()
 
-function sumaTotal() {
+function totalSum() {
   let suma = 0
   let cart = JSON.parse(localStorage.getItem("cart"))
   
@@ -26,7 +26,7 @@ function sumaTotal() {
   document.querySelector(".total").innerHTML = suma + "€"
   return suma
 }
-sumaTotal()
+totalSum()
 
 var $ = {
   enabled: false,
@@ -62,4 +62,4 @@ window.addEventListener("load", () => { $.init() })
 window.addEventListener("keydown", (e) => { $.RickCode(e) })
 
 
-export { printQuantity, sumaTotal }
+export { printQuantity, totalSum }
