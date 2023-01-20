@@ -1,8 +1,8 @@
 # Kwak-Express
 
-Página web enfocada en la venta de productos online, un e-commerce.
+Website focused on the sale of products online, e-commerce.
 
-La web tiene:
+The website has:gi
 - Responsive design (desktop first)
 - JavaScript
 - Local storage
