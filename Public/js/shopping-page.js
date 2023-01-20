@@ -1,4 +1,4 @@
-import { printQuantity, sumaTotal } from "./index.js";
+import { printQuantity, totalSum } from "./index.js";
 
 let cart = JSON.parse(localStorage.getItem("cart"))
 
@@ -32,7 +32,7 @@ function printCart() {
         });
 
         let suma = 0
-        suma = sumaTotal()
+        suma = totalSum()
 
         document.querySelector(".shopping-page-main-products").innerHTML += `
         <p class="shopping-page-main-product-TOTAL">TOTAL:${suma}€</p>`
