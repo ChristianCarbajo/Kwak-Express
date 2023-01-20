@@ -54,7 +54,6 @@ function removeItem(id) {
 
     printCart()
     printQuantity()
-
 }
 
 
